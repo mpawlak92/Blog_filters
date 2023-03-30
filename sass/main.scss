@@ -1,0 +1,42 @@
+@import './reset';
+@import './postCard';
+@import './dropdownMenu';
+@import '../node_modules/vanillajs-datepicker/sass/datepicker';
+@import './dateRangeInputs';
+@import './cardsSort.scss';
+body {
+  overflow-x: hidden;
+}
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 170px;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+  z-index: 100;
+}
+.container {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 19rem 5% 5rem 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+  background-color: #d4d4d4;
+}
+@media (min-width: 800px) {
+  .header {
+    flex-direction: row;
+    height: 80px;
+  }
+  .container {
+    padding-top: 10rem;
+  }
+}

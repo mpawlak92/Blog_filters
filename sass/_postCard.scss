@@ -1,0 +1,58 @@
+.postCard {
+  order: 2;
+  position: relative;
+  max-width: 350px;
+  height: fit-content;
+  margin: 2rem;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: 4rem;
+  box-shadow: 0 8px 22px -12px rgba(0, 0, 0, 0.64);
+
+  &__container {
+    width: 100%;
+    padding: 1rem;
+    background-color: #eeeded9b;
+    border-radius: 4px;
+    box-shadow: 0 8px 22px -12px rgba(0, 0, 0, 0.2);
+  }
+  &__img {
+    max-width: 100%;
+    padding: 0.3rem;
+
+    .articleNoImg {
+      width: 100%;
+      min-height: 120px;
+      max-height: 150px;
+      object-position: 50% 50%;
+      object-fit: contain;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+    }
+  }
+
+  &__PublishedDate {
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #87e0e3;
+    font-size: 0.4em;
+    color: #fff;
+    border-radius: 2px;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+    font-size: 0.9em;
+  }
+
+  &__content {
+    font-family: Helvetica, sans-serif;
+    position: relative;
+    min-height: 120px;
+    padding-top: 1rem;
+    font-size: 0.5em;
+    z-index: 6;
+  }
+}
