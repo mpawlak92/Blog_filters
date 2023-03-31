@@ -1,7 +1,7 @@
 import ChangePostSortOrder from '../components/ChangePostSortOrder/ChangePostSortOrder.js';
 import DropdownMenu from '../components/DropdownMenu/DropdownMenu.js';
 import DateRangeImputs from '../components/DateRangeImputs/DateRangeImputs.js';
-import data from '../../data.json' assert { type: 'json' };
+import { data } from './data.js';
 
 // variable with data
 export let availableItems = data;

@@ -3,7 +3,7 @@ import drawBlogPosts from '../drawBlogPosts/drawBlogPosts.js';
 import DateRangeFilter from '../DateRangeFilter/DateRangeFilter.js';
 import { rangepicker } from '../../js/main.js';
 
-import data from '../../data.json' assert { type: 'json' };
+import { data } from '../../js/data.js';
 //functin get all category from posts and delete duplicates
 const selectUniqueCategory = () => {
   const allCategory = data.map((post) => {
